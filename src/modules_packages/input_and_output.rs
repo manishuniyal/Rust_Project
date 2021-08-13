@@ -27,5 +27,5 @@ pub fn get_input_integer() -> i32 {
     let input_integer: i32 = input_integer.trim().parse().unwrap();
 
     //print!("'{}'", input_integer);
-    return input_integer;
+    input_integer
 }

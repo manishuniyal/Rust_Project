@@ -61,7 +61,8 @@ fn main() {
     //array_and_vector::vector();
     //array_and_vector::Dy_Vector();
     module1::module_test();
-
+    let (x,y) =module1::meter_to_km();
+    println!( "{} Meter = {} km",y,x);
 
 }
  //******************** OutSide Main Function Decleration ****************

@@ -1,4 +1,3 @@
-
 pub fn fun_test_call() {
     println!("manish, world!");
     println!("manish, world!");
@@ -12,17 +11,19 @@ pub fn arr()->[i32]{
 
 pub fn odd_even(n:i32) -> () {
     // if nmber is odd
+
     if top(n){
         println!("odd number");
     }else{
         // if number is even
         println!("numbr is even");
+
     }
     
 }
 fn top (x:i32)-> bool{
     {
-        return x%2==0;
+        x%2==0
     }
 
 }
