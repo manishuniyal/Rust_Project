@@ -63,6 +63,16 @@ fn main() {
     module1::module_test();
     let (x,y) =module1::meter_to_km();
     println!( "{} Meter = {} km",y,x);
+    let (x,y) =module1::meter_to_inch();
+    println!( "{} Meter = {} inch",y,x);
+    let (x,y) =module1::meter_to_cm();
+    println!( "{} Meter = {} Centi-meter",y,x);
+    let (x,y) =module1::centimeter_to_foot();
+    println!( "{} Centimeter = {} Foot ",y,x);
+    let (x,y) =module1::miles_to_km();
+    println!( "{} miles = {} KM ",y,x);
+
+
 
 }
  //******************** OutSide Main Function Decleration ****************

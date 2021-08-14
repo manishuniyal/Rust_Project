@@ -19,7 +19,7 @@ pub fn get_input_integer() -> i32 {
     let mut input_integer = String::new();
 
     // Reads the input from STDIN and places it in the String named input.
-    println!("Enter a Integer Number value:");
+    //println!("Enter a Integer Number value:");
     io::stdin().read_line(&mut input_integer)
         .expect("Failed to read input.");
 
